@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* .padre {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+} */
+
+
+.cuadrado-rojo {
+    width: 480px;
+    height: 553px;
+    background-color: #cc3843;
+
+    position: relative;
+}
+
+.cuadrad-azul{
+    width: 654px;
+    height: 479px;
+    background-color: #0c1f2c;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.logo {
+    height: 479px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    opacity: 0.2;
+}

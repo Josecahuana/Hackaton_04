@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    height: calc(100vh - 30px);
+    background-color: aquamarine;
+
+    /* Centrado vertical y horizontal de sus hijos*/
+    display: grid;
+    place-items: center;
+}
+
+footer {
+    height: 30px;
+    background-color: blueviolet;
+
+    display: grid;
+    place-items: center;
+}
+
+.tarjeta {
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    /* border: 1px solid gray; */
+    padding: 10px;
+    margin: 10px;
+
+}
